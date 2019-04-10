@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<body style="background-color: lightgrey;">
+  <title>Adam Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("dd.jpg");
+
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  height: 100%; 
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+ }
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 40px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height : 5%;
+  
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.avatar2{
+vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.avatar3{
+vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+</style>
+<script type="text/javascript">
+			
+
+			function contact()
+			{
+				alert("All has been written are given to me!!")
+				
+			}
+		</script>
+</head>
+	<style type="text/css"></style>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  			<div class="container-fluid">
+    		<div class="navbar-header">
+      	<a class="navbar-brand" href="#">Hekk</a>
+    </div>
+    <ul >i>
+		<li><a href="#Am">About me</a></li>
+		<li><a href="#Cm">Contact me</a></li>
+		<audio controls loop="loop" autoplay="autoplay" style="height: 45px">
+ 			 <source src="videoplayback.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+	</ul>
+	</div>
+	</nav>
+	<div class="bg-image"></div>
+	<div class="bg-text">
+		<i><h1 style="color: red">Welcome To This Not So Amazing Website</h1></i>
+		<i><p>A website about myself</p></i>
+		<button type="button" style="color: black" name="button" onclick="alert('Hekk sikdalah magic ne pun')">See the magic!</button>
+	</div>
+	<br>
+		<div id="Am" align="center">
+			<p><b><i><h1 style="font-size:30">Profile</h1></i></b></p>
+			<img src="jj.png" alt="Avatar" class="avatar">
+			<br><br>
+			<button type="button" onclick="typeWriter()">About me</button>
+			<br><br>
+			<i><p id="demo"></p></i>
+			<i><p id="demo2"></p></i>
+			<i><p id="demo3"></p></i>
+			<br>
+			<script>
+			var i = 0;
+			var txt = ' Hi everyone My name is Adam Maulana.';
+			var speed = 5;
+			var i2 = 0;
+			var txt2 = ' I am 21 Years old.';
+			var speed2 = 3;
+			var i3 = 0;
+			var txt3 = ' I am just your average Computer Science student.';
+			var speed3 = 1;
+
+			function typeWriter() {
+ 			 if (i < txt.length) 
+ 			 {
+    			document.getElementById("demo").innerHTML += txt.charAt(i);
+    			i++;
+    			setTimeout(typeWriter, speed);
+ 			}
+ 			 if(i2 < txt2.length)  
+ 			{
+ 				document.getElementById("demo2").innerHTML += txt2.charAt(i2);
+ 				i2++;
+ 				setTimeout(typeWriter, speed2);
+ 			}
+ 			 if(i3 < txt3.length)  
+ 			{
+ 				document.getElementById("demo3").innerHTML += txt3.charAt(i3);
+ 				i3++;
+ 				setTimeout(typeWriter, speed3);
+ 			}
+
+			}
+			</script>
+		<u><h1>What i like to do</h1></u>
+		<div class="container">
+		<img src="do.jpg"  width="600" height="300" alt="dota">
+		<div class="table-hover">
+		<br>
+		<b><p>Dota 2</p></b>
+		<table border="0">
+			<tr>
+				<td>Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.<br> The game is a sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne.<br> Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map.<br> Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play.<br> During a match, players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat.<br> A team wins by being the first to destroy a large structure located in the opposing team's base, called the "Ancient".</td>
+			</tr>
+			<br>
+		</table>
+		</div>
+		</div>
+		<br><br>
+		<div class="container">
+		<img src="es.jpg"  width="600" height="300" alt="esport">
+		<br><br>
+		<div class="table-hover">
+		<b><p>E-sport competition</p></b>
+		<table border="0">
+			<tr>
+				<td>Esports (also known as electronic sports, e-sports, or eSports) is a form of competition using video games.<br> Most commonly, esports takes the form of organized, multiplayer video game competitions, particularly between professional players, individually or as teams.<br> Although organized online and offline competitions have long been a part of video game culture, these were largely between amateurs until the late 2000s,<br> when participation by professional gamers and spectatorship in these events through live streaming saw a large surge in popularity.<br> By the 2010s, esports was a significant factor in the video game industry, with many game developers actively designing toward a professional esports subculture.<br></td>
+			</tr>
+			<br>
+		</table></div></div>
+		<br>
+		<h2><u>Videos to see!</u></h2>
+		<br>
+	<video width="600" controls>
+  		<source src="jugg.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+		</video>
+	<p> Dota 2 Short Film Contest - Guilty  </p>
+	<br>
+	<video width="600" controls>
+  		<source src="pes.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+		</video>
+	<p> Pes 2019 Final Trailer</p>
+	
+		<fieldset style="background-color: lightblue;">
+                <legend></legend>
+                <div id="Cm" align="center">
+				<p><b><i><h1> CONTACT ME </h1></i></b></p>
+				<table>
+					<tr align="center">
+					<td>Facebook</td>
+					<td>Instagram</td>
+					<td>Whatsapp</td>
+				</tr>
+				<tr>
+					<td><a href="https://web.facebook.com/word4life"><img src="fb.png" width="48" height="48" alt="fb" class="avatar3"></a>
+				</td>
+					<td><a href="https://www.instagram.com/ad.mln_/"><img src="ig.jpg" width="68" height="68" alt="insta" class="avatar2"></a>
+				</td>
+					<td><a href="https://api.whatsapp.com/send?phone=601131828418"><img src="ws.jpg" width="68" height="68" alt="ws" class="avatar2"></a>
+				</td>
+				</tr>
+		</table>
+		<br>
+                <i><p>If you are interested with please in the  form below</p></i>
+                <label>Full Name:</label><br>
+                <input type="text" name="fname" placeholder="Enter your name"><br><br>
+                
+                <label>Message:</label><br>
+                <textarea rows="5" cols="50" name="message" placeholder="Enter something here"></textarea><br><br>
+
+                <label>Gender:</label><br>
+                <select name="gender">
+                	<option value="0">Select your gender</option>
+                    <option value="1">Lelaki</option>
+                    <option value="2">Perempuan</option>
+                    <option value="3">Lain-Lain</option>
+                </select><br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel" value="+60" name="phone"><br><br>
+                <input type="button" value="Send message" onclick="contact()">
+            </div>
+        	</form>
+            </fieldset>
+            <br>
+	<div class="footer">
+		<i><p>&copy;AdamMaulana</p></i>
+		<i><p>CSC318 Project</p></i>
+	</div>
+</body>
+</html>
